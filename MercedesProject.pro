@@ -2,7 +2,10 @@ TEMPLATE = app
 
 QT += qml quick
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+           filehandler.cpp
+
+HEADERS += filehandler.h
 
 RESOURCES += qml.qrc
 
